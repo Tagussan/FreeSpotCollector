@@ -3,7 +3,7 @@ require 'open-uri/cached'
 require 'nokogiri'
 require 'uri'
 require 'pp'
-
+Dir::mkdir('FreeSpots')
 doc = Nokogiri::HTML(open("http://www.freespot.com/gmap/freespot.html?lng=136.96394153509&lat=35.04413495557&zoom=15&category=_all&import=23aichi.xml"))
 xmlLocation = Hash.new
 
