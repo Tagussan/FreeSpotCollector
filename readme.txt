@@ -5,4 +5,3 @@ CollectFreeSpots.rb -> 実行すると、FreeSpotsフォルダに各都道府県
 CreateOruxMapsKML.rb -> 実行すると、FreeSpotsForOruxMapsKMLフォルダにOruxMapsで使用出来るkmlオーバーレイが作成されます。そのままOruxMapsの所定のフォルダに入れてお使いいただけます。
 
 Ubuntu12.10で動作確認済み。
-
