@@ -1,5 +1,5 @@
 # -*- encoding: utf-8 -*-
-require 'open-uri/cached'
+require 'open-uri'
 require 'nokogiri'
 require 'uri'
 require 'pp'
