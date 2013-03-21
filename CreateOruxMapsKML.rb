@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 require 'fileutils'
 require 'nokogiri'
+Dir::mkdir('FreeSpotsForOruxMapsKML')
 Dir.glob("./FreeSpots/*.xml").each do |file|
 	kml = Nokogiri::XML(open("./BaseKML.kml"))
 	folder = kml.css('Folder')[0]
