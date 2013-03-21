@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<kml xmlns="http://earth.google.com/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+<Document>
+<name><![CDATA[Waypoints]]></name>
+<description><![CDATA[<h1>OruxMaps</h1><br /><hr align="center" width="480" style="height: 2px; width: 517px"/><h2>名前: Waypoints</h2><br /><p>距離: 0 km (00:00)</p><p>移動時間: 00:00</p><p>平均速度: 0 km/h</p><p>平均速度Mov。: 0 km/h</p><p>最大速度: 0 km/h</p><p>高度ゲイン: 0 m</p><p>高さ損失: 0 m</p><p>上昇時間: 00:00</p><p>下降時間: 00:00</p><hr align="center" width="480" style="height: 2px; width: 517px"/>]]></description>
+<StyleMap id="multiTrack"><Pair><key>normal</key><styleUrl>#multiTrack_n</styleUrl></Pair><Pair><key>highlight</key><styleUrl>#multiTrack_h</styleUrl></Pair></StyleMap><Style id="multiTrack_n"><IconStyle><Icon><href>http://earth.google.com/images/kml-icons/track-directional/track-0.png</href></Icon></IconStyle><LineStyle><color>99ffac59</color><width>6</width></LineStyle></Style><Style id="multiTrack_h"><IconStyle><scale>1.2</scale><Icon><href>http://earth.google.com/images/kml-icons/track-directional/track-0.png</href></Icon></IconStyle><LineStyle><color>99ffac59</color><width>8</width></LineStyle></Style><Folder>
+<name>Waypoints</name>
+
+<visibility>1</visibility>
+</Folder>
+<Folder>
+<name>Tracks</name>
+<open>0</open>
+<visibility>1</visibility>
+</Folder>
+<Folder>
+<name>Paths</name>
+<open>0</open>
+<visibility>1</visibility>
+</Folder>
+<Style id="gv_waypoint"><BalloonStyle><text><![CDATA[<p align="left"><font size="+1"><b>$[name]</b></font></p> <p align="left">$[description]</p>]]></text></BalloonStyle><IconStyle><Icon><href>http://maps.google.com/mapfiles/kml/pal4/icon29.png</href></Icon><color>FFFFFFFF</color><colorMode>normal</colorMode><hotSpot x="0.5" xunits="fraction" y="0.5" yunits="fraction" /></IconStyle><LabelStyle><color>FFFFFFFF</color></LabelStyle></Style><open>1</open>
+<visibility>1</visibility>
+ </Document>
+</kml>
